@@ -5,16 +5,19 @@ contedor.innerHTML=
 			"<nav id='menu'></nav>" +			
 			"<div id='exercicio'>" +
 				"<nav id='submenu'></nav>" +
-				"<div id='enunciado'></div>" +
-				"<div id='datos'></div>" +
-				"<div id='resultado'></div>" +
+				"<div id='derecha'>" +
+					"<div id='enunciado'></div>" +
+					"<div id='datos'></div>" +
+					"<div id='resultado'></div>" +
+				"</div>" +
 			"</div>" +
 		"</section>";
 		
-		let cadea = '';
+		let cadea = '<ul>';
 		for(let i=1; i<=NUMERO_BOLETINS; i++){
-			cadea+= "<div id='boletin"+ i + "' onclick='cargarSubmenu("+ i +");'>Boletin " + i +' ' +"</div>";
+			cadea+= "<li><div id='boletin"+ i + "' onclick='cargarSubmenu("+ i +");'>Boletin " + i +' ' +"</div></li>";
 		}
+		cadea += '</ul>';
 		menu.innerHTML=cadea;
 		
 }

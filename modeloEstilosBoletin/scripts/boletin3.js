@@ -1,6 +1,6 @@
 function exercicio3_1(){
 	enunciado.innerHTML='';
-	solucion.innerHTML='';
+	resultado.innerHTML='';
 	datos.innerHTML = '';
 	cambiarColorExercicio(3,1);
 	enunciado.textContent = 'Suma dos primeiros 50 números naturais';
@@ -10,7 +10,7 @@ function exercicio3_1(){
 	for (i;i < J; i++){
 		numero += i;
 	}
-	solucion.innerHTML= numero;
+	resultado.innerHTML= numero;
 }
 
 function exercicio3_2(){
@@ -26,7 +26,7 @@ function exercicio3_2(){
 		contador+= i + "<br>";
 		
 	}
-	solucion.innerHTML = contador;
+	resultado.innerHTML = contador;
 }
 
 function exercicio3_3(){
@@ -43,7 +43,7 @@ function exercicio3_3(){
 		numero += i;
 		}
 	}
-	solucion.innerHTML= numero;
+	resultado.innerHTML= numero;
 }
 
 function exercicio3_4(){
@@ -62,7 +62,7 @@ function exercicio3_4(){
 		if(result == true)
 		contador+= i + "<br>";
 		}
-		solucion.innerHTML = contador;
+		resultado.innerHTML = contador;
 	}
 
 
@@ -99,13 +99,13 @@ function calcularFactorial(numero){
 			factorial = numero *i;
 			numero = factorial;
 		}
-		solucion.innerHTML = factorial;
+		resultado.innerHTML = factorial;
 	}
 }
 
 function exercicio3_6(){
 	enunciado.innerHTML='';
-	solucion.innerHTML='';
+	resultado.innerHTML='';
 	datos.innerHTML = '';
 	cambiarColorExercicio(3,6);
 	enunciado.textContent = 'Imprime a serie 1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5...';
@@ -127,7 +127,7 @@ function imprimirSerie(numero){
 				
 			}
 		}
-		solucion.innerHTML= serie;
+		resultado.innerHTML= serie;
 		
 		
 	}
@@ -158,7 +158,7 @@ function imprimirSerie2(numero){
 			
 		}
 		serie += '...';
-		solucion.innerHTML= serie;
+		resultado.innerHTML= serie;
 		
 		
 	}
@@ -200,7 +200,7 @@ function serieFibonacci(numero){
 			}
 		}
 		serie = serie.substring(0,serie.length-1) + '...';
-		solucion.innerHTML = serie;
+		resultado.innerHTML = serie;
 		
 		
 		
@@ -235,7 +235,7 @@ function sumasNumero(numero){
 		    }
 		}
 		serie = serie.substring(0,serie.length-1);
-		solucion.innerHTML = serie;
+		resultado.innerHTML = serie;
 		
 	}
 	
@@ -244,7 +244,7 @@ function sumasNumero(numero){
 
 function exercicio3_10(){
 	enunciado.innerHTML='';
-	solucion.innerHTML='';
+	resultado.innerHTML='';
 	datos.innerHTML = '';
 	cambiarColorExercicio(3,10);
 	enunciado.textContent = 'Dados N números, indica cal é o maior.';
@@ -288,14 +288,14 @@ function resolver(numero){
 		 aux = elemento;
 		}
 	}
-	solucion2.innerHTML= aux;
+	resultado.innerHTML= aux;
 	
 }
 
 
 function exercicio3_11(){
 	enunciado.innerHTML='';
-	solucion.innerHTML='';
+	resultado.innerHTML='';
 	datos.innerHTML = '';
 	cambiarColorExercicio(3,11);
 	enunciado.textContent = 'Dado un número, sacar por pantalla a suma dos díxitos que o forman.';
@@ -319,7 +319,7 @@ function calcularSumaDixitos(numero){
 			calculo += num;
 		}
 		
-		solucion.innerHTML= calculo;
+		resultado.innerHTML= calculo;
 	}
 }
 

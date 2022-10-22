@@ -7,12 +7,53 @@ body{
 header{
     border: 2px solid black;
     padding: 5px;
+    text-align: center;
 }
 footer{
     border: 2px solid black;
-    padding: 5px;
+   /* display: block;
+    position: absolute;
+    box-sizing: content-box;
+    margin-bottom: 15px;
+    bottom: 0; */
+    justify-content: center;
 }
 
 div.identificacionColor{
 	color:#FF0000;
+}
+
+#menu{
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+ 
+#menu ul{
+    list-style: none; 
+    overflow: hidden; 
+}
+
+#menu ul li{
+    margin: 10px;
+    float: left;
+
+}
+
+#exercicio{
+    display: flex;
+    flex-direction: row;
+}
+
+#submenu{
+width: 20%;
+}
+
+#derecha{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border: 1px solid black;
 }

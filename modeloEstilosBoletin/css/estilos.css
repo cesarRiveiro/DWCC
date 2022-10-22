@@ -1,0 +1,18 @@
+body{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+header{
+    border: 2px solid black;
+    padding: 5px;
+}
+footer{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+div.identificacionColor{
+	color:#FF0000;
+}
